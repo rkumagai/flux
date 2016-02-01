@@ -9,9 +9,16 @@
 
 var React = require('react');
 
+// Define component classes
 var TodoApp = require('./components/TodoApp.react');
+var MyInfoApp = require('./components/MyInfo.react');
 
+// Render
 React.render(
   <TodoApp />,
   document.getElementById('todoapp')
+);
+React.render(
+  <MyInfoApp />,
+  document.getElementById('myinfo')
 );
